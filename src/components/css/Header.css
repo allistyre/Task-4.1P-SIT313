@@ -1,0 +1,55 @@
+.header {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-image {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+    opacity: 0.85;
+}
+
+.header__text {
+    position: absolute;
+    top: 11%;
+    left: 8%;
+    transform: translateY(-10%);
+    color: white;
+    max-width: 60%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__text-title {
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.header__text-subtitle {
+    max-width: 40%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.4px;
+}
+
+.header-cta {
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    background-color: #f5f6fa;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.2s font-weight ease-in-out;
+    font-size: 1rem;
+}
+
+.header-cta:hover {
+    font-weight: bold;
+}
