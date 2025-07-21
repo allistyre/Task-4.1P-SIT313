@@ -5,7 +5,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <div className="navbar-container">
             <h1 className="navbar-heading">DEV@Deakin</h1>
             <div className="navbar__search-container">
                 <FontAwesomeIcon className="navbar__search-icon" icon={faMagnifyingGlass} />
