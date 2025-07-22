@@ -3,6 +3,7 @@ import './components/css/fonts.css'
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import CardsSection from "./components/CardsSection";
+import NewsletterSignup from "./components/NewsletterSignup";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
            <Navbar />
            <Header />
            <CardsSection />
+           <NewsletterSignup />
        </div>
   );
 }
