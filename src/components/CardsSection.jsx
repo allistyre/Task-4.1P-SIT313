@@ -1,13 +1,5 @@
 import './css/CardsSection.css';
 import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardHeader,
-    Image,
-    Rating,
-    CardMeta,
-    Icon,
     CardGroup
 } from 'semantic-ui-react';
 import {useState} from "react";
@@ -15,7 +7,7 @@ import Article from "./Article";
 import Tutorial from "./Tutorial";
 
 function CardsSection() {
-    const [articles, setArticles] = useState(
+    const [articles] = useState(
         [
             {
                 title: 'How to use React',
@@ -53,7 +45,7 @@ function CardsSection() {
         ]
     );
 
-    const [tutorials, setTutorials] = useState(
+    const [tutorials] = useState(
         [
             {
                 title: 'HTML Guide',
