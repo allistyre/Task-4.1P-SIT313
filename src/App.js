@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import CardsSection from "./components/CardsSection";
 import NewsletterSignup from "./components/NewsletterSignup";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
            <Header />
            <CardsSection />
            <NewsletterSignup />
+           <Footer />
        </div>
   );
 }
